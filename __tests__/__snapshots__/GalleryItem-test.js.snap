@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FlatList Error component should be render when error is true 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "aspectRatio": 1,
+      "backgroundColor": "#cccccc",
+      "flex": 1,
+      "marginHorizontal": 16,
+      "marginVertical": 8,
+      "opacity": 1,
+    }
+  }
+  testID="touchable4"
+>
+  <Image
+    id={4}
+    source={
+      Object {
+        "uri": "https://picsum.photos/id/4/200",
+      }
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

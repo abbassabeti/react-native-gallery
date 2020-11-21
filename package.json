@@ -1,0 +1,48 @@
+{
+  "name": "gelato",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "node_modules/.bin/jest",
+    "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js --runInBand",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@react-native-community/cameraroll": "^4.0.1",
+    "@react-native-community/netinfo": "^5.9.7",
+    "crypto-js": "^4.0.0",
+    "metro-babel7-plugin-react-transform": "^0.54.1",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-cacheable-image": "^2.1.0",
+    "react-native-fs": "^2.16.6",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-image-pan-zoom": "^2.1.12",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "^2.15.0",
+    "react-native-share": "^4.1.0",
+    "rn-fetch-blob": "^0.12.0",
+    "url-parse": "^1.4.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^7.1.0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3",
+    "jest-expo": "^39.0.0",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
+  }
+}
